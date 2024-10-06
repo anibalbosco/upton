@@ -20,6 +20,8 @@
             </a>
             <nav class="ml-auto flex gap-4 sm:gap-6">
                 <button class="text-white hover:text-red-200" onclick="scrollToSection('home')">Home</button>
+                <button class="text-white hover:text-red-200" onclick="scrollToSection('matches')">Matches</button>
+                <button class="text-white hover:text-red-200" onclick="scrollToSection('anthem')">Anthem</button>
                 <button class="text-white hover:text-red-200" onclick="scrollToSection('about')">About</button>
                 <button class="text-white hover:text-red-200" onclick="scrollToSection('media')">Media</button>
                 <button class="text-white hover:text-red-200" onclick="scrollToSection('contact')">Contact</button>
@@ -43,132 +45,147 @@
                         <div class="md:w-1/2">
                             <figure>
                                 <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202024-10-02%20at%2014.27.46_455c771f-cMaZCoU5BXm4QZJGCI010TGW09LdM2.jpg" alt="Upton BSC Mascot - A winged boar in red and white jersey kicking a soccer ball" width="500" height="500" class="rounded-lg shadow-lg">
-                                <figcaption class="mt-2 text-sm text-center text-white">Leo Amaya, el culo de zebra, about to score</figcaption>
+                                <figcaption class="mt-2 text-sm text-center text-white">El culo de zebra, about to score</figcaption>
                             </figure>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="w-full py-12 md:py-24 lg:py-32 bg-white">
+            <section id="matches" class="w-full py-12 md:py-24 lg:py-32 bg-white">
                 <div class="container px-4 md:px-6">
                     <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8 text-red-600">Upcoming Matches</h2>
-                    <div class="grid gap-6 lg:grid-cols-2 lg:gap-12">
-                        <div>
-                            <h3 class="text-2xl font-bold text-red-600 mb-4">New Schedule</h3>
-                            <div class="space-y-4">
-                                <div class="flex flex-col items-center space-y-2 border-2 border-red-200 p-4 rounded-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mb-2 text-red-500">
-                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                                    </svg>
-                                    <h4 class="text-xl font-bold text-red-600">HAUPPAUGE EAGLES vs BSC UPTON</h4>
-                                    <p class="text-sm text-gray-500">October 6, 2023 at 4:00 PM</p>
-                                    <div class="flex items-center space-x-1 text-sm text-gray-500">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
-                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                            <circle cx="12" cy="10" r="3"></circle>
-                                        </svg>
-                                        <span>Hauppauge High School</span>
-                                    </div>
-                                </div>
-                                <div class="flex flex-col items-center space-y-2 border-2 border-red-200 p-4 rounded-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mb-2 text-red-500">
-                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                                    </svg>
-                                    <h4 class="text-xl font-bold text-red-600">BSC UPTON vs SAYVILLE UNITED</h4>
-                                    <p class="text-sm text-gray-500">October 13, 2023 at 7:00 PM</p>
-                                    <div class="flex items-center space-x-1 text-sm text-gray-500">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
-                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                            <circle cx="12" cy="10" r="3"></circle>
-                                        </svg>
-                                        <span>Diamond in the Pines</span>
-                                    </div>
-                                </div>
-                                <div class="flex flex-col items-center space-y-2 border-2 border-red-200 p-4 rounded-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mb-2 text-red-500">
-                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                                    </svg>
-                                    <h4 class="text-xl font-bold text-red-600">BSC UPTON vs SACHEM AMERICANS</h4>
-                                    <p class="text-sm text-gray-500">October 20, 2023 at 7:00 PM</p>
-                                    <div class="flex items-center space-x-1 text-sm text-gray-500">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
-                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                            <circle cx="12" cy="10" r="3"></circle>
-                                        </svg>
-                                        <span>Diamond in the Pines</span>
-                                    </div>
-                                </div>
+                    <div class="grid gap-6 lg:grid-cols-3 lg:gap-12">
+                        <div class="flex flex-col items-center space-y-2 border-2 border-red-200 p-4 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mb-2 text-red-500">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            <h3 class="text-xl font-bold text-red-600">HAUPPAUGE EAGLES vs BSC UPTON</h3>
+                            <p class="text-sm text-gray-500">October 6, 2023 at 4:00 PM</p>
+                            <div class="flex items-center space-x-1 text-sm text-gray-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <span>Hauppauge High School</span>
                             </div>
+                            <button class="mt-4 border-red-600 text-red-600 hover:bg-red-50 px-4 py-2 rounded">
+                                Match Details
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 ml-2 inline">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
                         </div>
-                        <div>
-                            <h3 class="text-2xl font-bold text-red-600 mb-4">Previous Schedule</h3>
-                            <div class="space-y-4">
-                                <div class="flex flex-col items-center space-y-2 border-2 border-red-200 p-4 rounded-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mb-2 text-red-500">
-                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                                    </svg>
-                                    <h4 class="text-xl font-bold text-red-600">BSC Upton vs Ipswich Wanderers</h4>
-                                    <p class="text-sm text-gray-500">Sunday, October 15, 2023</p>
-                                    <div class="flex items-center space-x-1 text-sm text-gray-500">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
-                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                            <circle cx="12" cy="10" r="3"></circle>
-                                        </svg>
-                                        <span>Upton Park</span>
-                                    </div>
-                                </div>
-                                <div class="flex flex-col items-center space-y-2 border-2 border-red-200 p-4 rounded-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mb-2 text-red-500">
-                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                                    </svg>
-                                    <h4 class="text-xl font-bold text-red-600">Ipswich Wanderers vs BSC Upton</h4>
-                                    <p class="text-sm text-gray-500">Sunday, October 22, 2023</p>
-                                    <div class="flex items-center space-x-1 text-sm text-gray-500">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
-                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                            <circle cx="12" cy="10" r="3"></circle>
-                                        </svg>
-                                        <span>Ipswich Wanderers FC</span>
-                                    </div>
-                                </div>
-                                <div class="flex flex-col items-center space-y-2 border-2 border-red-200 p-4 rounded-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mb-2 text-red-500">
-                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                                    </svg>
-                                    <h4 class="text-xl font-bold text-red-600">BSC Upton vs Ipswich Wanderers</h4>
-                                    <p class="text-sm text-gray-500">Sunday, October 29, 2023</p>
-                                    <div class="flex items-center space-x-1 text-sm text-gray-500">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
-                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                            <circle cx="12" cy="10" r="3"></circle>
-                                        </svg>
-                                        <span>Upton Park</span>
-                                    </div>
-                                </div>
+                        <div class="flex flex-col items-center space-y-2 border-2 border-red-200 p-4 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mb-2 text-red-500">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            <h3 class="text-xl font-bold text-red-600">BSC UPTON vs SAYVILLE UNITED</h3>
+                            <p class="text-sm text-gray-500">October 13, 2023 at 7:00 PM</p>
+                            <div class="flex items-center space-x-1 text-sm text-gray-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <span>Diamond in the Pines</span>
                             </div>
+                            <button class="mt-4 border-red-600 text-red-600 hover:bg-red-50 px-4 py-2 rounded">
+                                Match Details
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 ml-2 inline">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2 border-2 border-red-200 p-4 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 mb-2 text-red-500">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            <h3 class="text-xl font-bold text-red-600">BSC UPTON vs SACHEM AMERICANS</h3>
+                            <p class="text-sm text-gray-500">October 20, 2023 at 7:00 PM</p>
+                            <div class="flex items-center space-x-1 text-sm text-gray-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <span>Diamond in the Pines</span>
+                            </div>
+                            <button class="mt-4 border-red-600 text-red-600 hover:bg-red-50 px-4 py-2 rounded">
+                                Match Details
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 ml-2 inline">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="about" class="w-full py-12 md:py-24 lg:py-32 bg-red-50">
+            <section id="anthem" class="w-full py-12 md:py-24 lg:py-32 bg-red-50">
+                <div class="container px-4 md:px-6">
+                    <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8 text-red-600">Upton BSC Anthem</h2>
+                    <div class="max-w-3xl mx-auto">
+                        <div class="space-y-4">
+                            <p class="text-lg text-gray-700">
+                                In Upton town, we're strong and won't back down,<br>
+                                With soccer hearts, we play with renown.<br>
+                                From Long Island's shore to claim the crown,<br>
+                                Upton BSC, our victory's our noun.
+                            </p>
+                            <p class="text-lg font-semibold text-red-600">
+                                (Chorus)<br>
+                                Oh, Upton BSC, we're proud, hear our renown,<br>
+                                In unity, we stand on hallowed ground.<br>
+                                With every kick and goal, we'll astound,<br>
+                                Upton BSC, our triumph will resound.
+                            </p>
+                            <p class="text-lg text-gray-700">
+                                From Argentina's birthplace, we aspire to renown,<br>
+                                With passion and skill, our dreams unbound.<br>
+                                In the world of sports, we'll take our own crown,<br>
+                                Upton BSC, watch as our star is unwound.
+                            </p>
+                            <p class="text-lg font-semibold text-red-600">
+                                (Chorus)<br>
+                                Oh, Upton BSC, we're proud, hear our renown,<br>
+                                In unity, we stand on hallowed ground.<br>
+                                With every kick and goal, we'll astound,<br>
+                                Upton BSC, our triumph will resound.
+                            </p>
+                            <p class="text-lg text-gray-700">
+                                Materials, physics, and chemistry's grace renowned,<br>
+                                In the soccer game, our path is unbound.<br>
+                                Blockchain in our hearts, innovation's our noun,<br>
+                                Upton BSC, in our success, we're unchained.
+                            </p>
+                            <p class="text-lg font-semibold text-red-600">
+                                (Chorus)<br>
+                                Oh, Upton BSC, we're proud, hear our renown,<br>
+                                In unity, we stand on hallowed ground.<br>
+                                With every kick and goal, we'll astound,<br>
+                                Upton BSC, our triumph will resound.
+                            </p>
+                            <p class="text-lg text-gray-700">
+                                (Outro)<br>
+                                With English and Spanish, our voices resound,<br>
+                                In Upton BSC, we'll forever be unbound.<br>
+                                From the pitch to the stands, we'll wear the crown,<br>
+                                Upton BSC, our anthem's triumphant sound!
+                            </p>
+                            <p class="text-lg italic text-gray-600">
+                                Final guitar strum and a drum roll
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="w-full py-12 md:py-24 lg:py-32 bg-white">
                 <div class="container px-4 md:px-6">
                     <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8 text-red-600">About Upton BSC</h2>
                     <p class="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
@@ -176,7 +193,7 @@
                     </p>
                 </div>
             </section>
-            <section id="media" class="w-full py-12 md:py-24 lg:py-32 bg-white">
+            <section id="media" class="w-full py-12 md:py-24 lg:py-32 bg-red-50">
                 <div class="container px-4 md:px-6">
                     <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8 text-red-600">Media Gallery</h2>
                     <div class="grid gap-6 lg:grid-cols-2">
@@ -206,7 +223,7 @@
                     </div>
                 </div>
             </section>
-            <section id="contact" class="w-full py-12 md:py-24 lg:py-32 bg-red-50">
+            <section id="contact" class="w-full py-12 md:py-24 lg:py-32 bg-white">
                 <div class="container px-4 md:px-6">
                     <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8 text-red-600">Contact Us</h2>
                     <div class="mx-auto max-w-[500px]">
